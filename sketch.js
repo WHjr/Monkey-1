@@ -35,7 +35,7 @@ function setup() {
 
 
 function draw() {
-  background("lightblue");
+  background("pink");
   
   text("Survival Time : " + score, 400,100)
   score = Math.ceil(frameCount/getFrameRate());
